@@ -34,7 +34,7 @@ INSERT INTO Formation (nom_formation) values
 ("Licence"),
 ("BTS");
 
-INSERT INTO Inscription (id_etudiant, nom_formation) values
+INSERT INTO Postuler (id_etudiant, nom_formation) values
 (1, "BTS"),
 (2, "BTS"),
 (3, "Licence"),
