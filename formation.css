@@ -62,8 +62,6 @@ nav button:hover {
 }
  
 
-
-
 .Formation .titre {
     text-align: center;
     margin-bottom: 40px;
@@ -79,28 +77,24 @@ nav button:hover {
     font-size: 16px;
 }
 
-
-
 .Formation {
     padding: 40px 20px;
 }
 
-/* Conteneur qui aligne les 4 blocs */
 .Formation {
     display: flex;
-    flex-direction: column; /* Le titre reste au-dessus */
+    flex-direction: column;
     align-items: center;
 }
 
 .Formation .conteneur-cartes {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;   /* Utile si l'écran est petit */
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 
-/* Style de chaque carte */
 .prépas,
 .cycle-ingenieur,
 .licences,
@@ -112,7 +106,6 @@ nav button:hover {
     text-align: center;
 }
 
-/* Les images */
 .prépas img,
 .cycle-ingenieur img,
 .licences img,
@@ -124,7 +117,6 @@ nav button:hover {
     margin-bottom: 10px;
 }
 
-/* Titres */
 .prépas h2,
 .cycle-ingenieur h2,
 .licences h2,
@@ -133,7 +125,6 @@ nav button:hover {
     margin-bottom: 10px;
 }
 
-/* Textes */
 .prépas p,
 .cycle-ingenieur p,
 .licences p,
@@ -151,27 +142,6 @@ nav button:hover {
     text-align: left;
     color: #444;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .Campus {
   padding: 60px 0;
