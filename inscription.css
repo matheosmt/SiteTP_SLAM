@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -89,3 +90,10 @@ button:hover {
     background: #0053c7;
     box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
+=======
+.div_inscription {
+    display: inline-block;
+    font-size: larger;
+    align-self: center;
+}
+>>>>>>> 49a1c50f541d6d5834025eea43b4703e0637b2ba
